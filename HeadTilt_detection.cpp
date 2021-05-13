@@ -10,9 +10,6 @@ using namespace cv;
 
 
 
-
-
-
 int main()
 {
 	//--------------------------------------------------------------------------------------------------------
@@ -41,7 +38,7 @@ int main()
 		CascadeClassifier facedetector, lefteyedetector, righteyedetector, nestedCascade;
 
 		
-		//facedetector.load("C:/opencv/opencv/sources/data/haarcascades/haarcascade_frontalface_alt2.xml");
+		
 		lefteyedetector.load("C:/opencv/opencv/sources/data/haarcascades/haarcascade_lefteye_2splits.xml");
 		righteyedetector.load("C:/opencv/opencv/sources/data/haarcascades/haarcascade_righteye_2splits.xml");
 		//nestedCascade.load("C:/opencv/opencv/sources/data/haarcascades/haarcascade_eye.xml");
@@ -81,11 +78,7 @@ int main()
 		equalizeHist(gray, histogramimage);
 
 
-
-	
-
-
-
+		
 			//----------------------------------------------------------------------------------------
 
 
@@ -93,12 +86,6 @@ int main()
 		
 			vector<Rect> nestedObjects, nestedObjects2;
 			Scalar color = Scalar(255, 0, 0);
-
-
-
-
-
-
 
 
 
@@ -126,13 +113,6 @@ int main()
 				circle(frame, leftcenter, 4, color, 4, 8, 0);   //drawing circle around the center of left eye
 				
 			}
-
-
-
-
-
-
-
 
 
 //-----------------------------------------------------------------------------------------------------------------------------
@@ -182,22 +162,6 @@ int main()
 			double angle = atan2(dy, dx) * 180.0 / CV_PI;
 
 			cout << angle << "\n";
-
-
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
