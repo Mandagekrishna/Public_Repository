@@ -1,14 +1,16 @@
 /*****************************************************************************************************
 
-Statement : Printing all the palindrome of the given string 
+Statement : Given two numbers, find the difference of greatest and smallest prime number in the given range
 
-Input : abba
+Input : int int
 
-output : a, abba , b, bb, b, a
+output : difference of greatest and smallest prime number in the given range
+	if no prime number exists in given range output is -1
+	
 
 Author : Krishna Shivshankar Mandage
 
-Date  : 17 may 2021
+Date  :20 may 2021
 
 
 *****************************************************************************************************/
