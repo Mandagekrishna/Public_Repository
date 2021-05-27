@@ -1,14 +1,22 @@
 /* ****************************************************************************************************
 
-Statement : Printing all the palindrome of the given string 
+Statement : Create an application to detect whether the person is detected POSITIVE or NEGATIVE given
+            the composition of blood sample and virus. If the blood sample contains the composition 
+            in same order that of virus, print POSITIVE else print NEGATIVE
+            
+Example : let Virus composition be - vir
+           let Blood composition be - baavcciefr
+           since Blood composition contain the virus composition(vir) as substring print POSITIVE
 
-Input : abba
+Input : Number of Person to be tested (int)
+        Composition of Virus (string)
+        Composition of blood of each Person(string) 
 
-output : a, abba , b, bb, b, a
+output : POSITIVE or NEGATIVE
 
 Author : Krishna Shivshankar Mandage
 
-Date  : 17 may 2021
+Date  : 20 may 2021
 
 
 **************************************************************************************************** */
